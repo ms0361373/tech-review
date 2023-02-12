@@ -78,7 +78,12 @@
 
 ## Testing
 ### 會使用 TDD
-- [前端](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)
+</br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+| frontend |   |   |   | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
+
 ***
 ### 熟悉測試框架
 前端測試框架 Jest
@@ -100,20 +105,81 @@
 | 外部抗封鎖 | 後端單元測試 | 5~10 merge request | 4 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external) |
 
 ***
-## Infrastructure/DevOps
+### Infrastructure/DevOps
+## 實作監控流程或機制
+<br>
 
-- [實作監控流程或機制](https://proton.vir000.com/Jason/deploy_demo)
-- 排除系統問題的能力
-    - Grafana
-- 實作 CI/CD 流程
-    - [前端](https://proton.vir000.com/Jason/frontend_demo)
-    - [後端](https://proton.vir000.com/Jason/backend_demo)
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  監控機制  |   |   |   | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
+
+## 排除系統問題的能力
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  Grafana  |   |   |   |  |
+|  frontEnd  |   |   |   |  |
+|  backend  |   |   |   |  |
+
+## 實作 CI/CD 流程
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  frontEnd  |   |   |   | [Demo](https://proton.vir000.com/Jason/frontend_demo)  |
+|  backend  |   |   |   | [Demo](https://proton.vir000.com/Jason/backend_demo) |
+
 ***
-## Domain Knowledge 6
-Level 3
-- [ ] 了解領域知識和部門內討論
-    - [ ] 前端 (React)
-    - [ ] 後端 (Golang)
-    - [ ] 資料庫 (Mysql、Redis)
-- [ ] 定義問題與 PO 討論
-    - [ ] online issue 查找/討論
+## Domain Knowledge
+<br>
+
+### 了解領域知識和部門內討論
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|    |   |   |   |   |
+
+### 定義問題與 PO 討論
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|    |   |   |   |   |
+***
+
+## Support
+<br>
+
+### 能夠獨立解決50%的問題，並對客戶做出正確的回應
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|    |   |   |   |   |
+
+## Experience
+<br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  APP  |   |   |   |   |
+|  Js  |   |   |   |   |
+|  golang  |   |   |   |   |
+
+***
+## Soft
+<br>
+
+### 能夠發現問題,分析複雜問題的解決方案
+
+### 持續為產品/流程的改進做出貢獻
+
+### 能夠負責完整交付，小項目到正式環境
+
+### 獨立管理專案
+
+### 在複雜環境中操作,只須少量監管
+
+### 持續學習並分享給團隊成員
