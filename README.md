@@ -39,8 +39,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 訂閱推播|  |  | 1 次 | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
-| Google 登入 |  |  | 1 次 | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
+| 訂閱推播| 完成獨立網址推播/訂閱功能 | 1人 | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
+| Google 登入 | 完成獨立網址 google 登入和權限控制 | 1人  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
 
 ***
 <br>
@@ -62,16 +62,20 @@
 - MVP
 <br>
 <img src="img/mvp.png" width="500" hight="250"/>
+
 - MVVM
 <br>
 <img src="img/mvvm.png" width="500" hight="250"/>
+
 - React + Redux
 <br>
 <img src="img/redux.png" width="500" hight="250"/>
+
 - backend clean architecture
 <br>
 <img src="img/clean_arc.png" width="500" hight="250"/>
-***
+
+
 ## Testing
 ### 會使用 TDD
 - [前端](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)
@@ -83,17 +87,17 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗劫持/抗封鎖 |  |  | 1~2年 | [link](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 |  |  | 1~2年 |  |
-| 外部抗封鎖 |  |  | 1~2年 | |
+| 抗封鎖/抗劫持 | 前端`單元測試/End to end`測試  | 20~30 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/prospect) |
+| 獨立網址 | 前端`單元測試/End to end`測試  | 30~40 merge request | 4 個月 | [jockey](https://proton.vir000.com/castle/jockey) |
+| 外部抗封鎖前後台 | 前端`單元測試/End to end`測試 | 20~30 merge request | 4 個月 | [spiker](https://proton.vir000.com/prediction/outside-spiker)</br>[hitter](https://proton.vir000.com/prediction/outside-hitter) |
 
 後端測試框架 Golang Testify
 - Unit test
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址| 一般登入替換 google 登入 | 1人 | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
-|外部抗封鎖| 導轉規則驗證模塊抽離 | 1人 | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
+| 獨立網址 | 後端單元測試 | 50~60 merge request | 4 個月 | [carriage](https://proton.vir000.com/castle/carriage) |
+| 外部抗封鎖 | 後端單元測試 | 5~10 merge request | 4 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external) |
 
 ***
 ## Infrastructure/DevOps
