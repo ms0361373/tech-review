@@ -1,14 +1,19 @@
 ## 技術審查
 
-### Programming
+#### Programming
 ***
+<br>
+
 ### 重構 module level
+<br>
 
 前端
+
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
 | 獨立網址| 一般登入替換 google 登入 | 1人 | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
 |外部抗封鎖| 導轉規則驗證模塊抽離 | 1人 | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
+<br>
 
 後端
 |     | Specific  | Number  | Time  | prove |
@@ -17,26 +22,38 @@
 | 獨立網址  | 獨立網址重建 |
 
 ***
+<br>
+
 ### 必要時能夠與部門進行分享
+<br>
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
 | Typescript| Typesciprt分享 | 1 次 | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
 
 ***
+<br>
+
 ### 能夠獨立完成任務
+<br>
+
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
 | 訂閱推播|  |  | 1 次 | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
 | Google 登入 |  |  | 1 次 | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
 
 ***
+<br>
+
 ### 了解軟體架構
+<br>
+
 傳統 MVC 架構 View 代表 Html+JS+CSS
 https://zhuanlan.zhihu.com/p/410054299
 
 - 傳統 MVC
-// TODO 流程圖＋介紹
+<br>
+<img src="img/mvc_arc.png" width="500" hight="250"/>
 
 - 前後端分離 MVC
 // TODO 流程圖＋介紹
