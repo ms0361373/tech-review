@@ -48,21 +48,29 @@
 ### 了解軟體架構
 <br>
 
-傳統 MVC 架構 View 代表 Html+JS+CSS
-https://zhuanlan.zhihu.com/p/410054299
+
 
 - 傳統 MVC
+傳統 MVC 架構 View 代表 Html+JS+CSS
 <br>
 <img src="img/mvc_arc.png" width="500" hight="250"/>
 
 - 前後端分離 MVC
-// TODO 流程圖＋介紹
+<br>
+<img src="img/mvc_arc1.png" width="500" hight="250"/>
 
 - MVP
+<br>
+<img src="img/mvp.png" width="500" hight="250"/>
 - MVVM
+<br>
+<img src="img/mvvm.png" width="500" hight="250"/>
 - React + Redux
+<br>
+<img src="img/redux.png" width="500" hight="250"/>
 - backend clean architecture
-
+<br>
+<img src="img/clean_arc.png" width="500" hight="250"/>
 ***
 ## Testing
 ### 會使用 TDD
