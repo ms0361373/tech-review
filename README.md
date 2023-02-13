@@ -9,15 +9,15 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址| 一般登入替換 google 登入 | 1 member | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
-|外部抗封鎖| 導轉規則驗證模塊抽離 | 1 member | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
+| 獨立網址| 以 Google OAuth 登入驗證流程替換原本的一般登入 | 2 member | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
+|外部抗封鎖| 導轉規則驗證邏輯複雜，且複用性較高，透過模塊的抽離能更好的進行測試 | 1 member | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
 <br>
 
 - backend
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗劫持  | 重構檢測結果資料來源由 Redis 更換為 Loki | 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
+| 抗劫持  | 原先抗劫持`單一`、`全部`地區的 IP 替換是透過存放在 Redis 資料庫做替換，透過將資料源<br>切換成 loki 的方式改善`資料保留與查詢不方便`、`檢測結果顯示不完整`、`檢測結果不即時`等問題| 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
 
 <br>
 
@@ -26,7 +26,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| Typescript| Typesciprt分享 | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
+| Typescript| 為了讓前端開發知道 Typescript 優劣，透過實際應用了解，並將結論與部門分享 | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
 
 <br>
 
@@ -44,23 +44,23 @@
 ### 了解軟體架構
 <br>
 
-- 傳統 MVC 架構 View 代表 Html+JS+CSS
+- 傳統 MVC 架構 View 代表 Html+JS+CSS。
 <br>
 <img src="img/mvc_arc.png" width="500" hight="250"/>
 
-- 前後端分離 MVC
+- 前後端分離 MVC，View 成為 ViewModel，前端則透過各種框架，有效解耦。
 <br>
 <img src="img/mvc_arc1.png" width="500" hight="250"/>
 
-- MVP
+- 前端功能逐漸複雜 Model、View、Controller 依賴性過高，難以測試。MVP 有效的解耦 Model 與 Controller 的依賴。
 <br>
 <img src="img/mvp.png" width="500" hight="250"/>
 
-- MVVM
+- MVVM 模式下 View 完全解耦 Model 和邏輯控制，透過 data binding 機制操作狀態。
 <br>
 <img src="img/mvvm.png" width="500" hight="250"/>
 
-- React + Redux
+- Redux 狀態管理機制，提升狀態的可控性
 <br>
 <img src="img/redux.png" width="500" hight="250"/>
 
@@ -78,7 +78,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 |   |   |   | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
+| 獨立網址 | 導轉規則格式驗證於開發前列舉紅燈案例和綠燈案例 | once  | 1 sprint  | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
 
 </br>
 
@@ -113,7 +113,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  監控機制  |    | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
+|  監控機制  | 將前端和後端服務掛載本機 docker 並透過，API 實現 error log 告警  | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
 
 <br>
 
@@ -122,8 +122,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  frontEnd  |   | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
-|  backend  |   | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
+|  frontend  | 前端 ci 運行 test、lint、build 並生成 artifacts | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
+|  backend  |  後端 ci 運行 test、lint、build 並生成 artifacts  | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
 
 <br>
 
@@ -133,7 +133,7 @@
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
 |  Grafana  |   |   |   |  |
-|  frontEnd  |   |   |   |  |
+|  frontend  |   |   |   |  |
 |  backend  |   |   |   |  |
 
 <br>
@@ -160,6 +160,7 @@
 |  獨立網址  | 和 PO 討論 google 登入  |   |   |   |
 |  抗封鎖  | 和 PO 討論 規則畫面邏輯  |   |   |   |
 |  抗封鎖  | 和 PO 討論 批次更新可能  |   |   |   |
+
 <br>
 <br>
 <br>
@@ -180,9 +181,10 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  APP  |   |   |   |   |
-|  Js  |   |   |   |   |
-|  golang  |   |   |   |   |
+|  Android APP - JAVA/Kotlin | 開發 | - | 1-2 年 |   |
+|  Android/IOS APP - React Native  | 開發 | - | 2-3 年 |   |
+|  Web Application - React  | 開發 | - | 1 年  |
+|  Web Service - golang  | 開發  | - | 1 年  |
 <br>
 
 # Soft
@@ -190,17 +192,41 @@
 ### 能夠發現問題,分析複雜問題的解決方案
 <br>
 
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  ???  |   |   |   |   |
+
 ### 持續為產品/流程的改進做出貢獻
 <br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  CI Cache 優化  |   |   |   |   |
 
 ### 能夠負責完整交付，小項目到正式環境
 <br>
 
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  部署紀錄  |   |   |   |   |
+
 ### 獨立管理專案
 <br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  前端專案  |   |   |   |   |
 
 ### 在複雜環境中操作,只須少量監管
 <br>
 
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  ??  |   |   |   |   |
+
 ### 持續學習並分享給團隊成員
 <br>
+
+|     | Specific  | Number  | Time  | prove |
+| ---- | ----  | ----  | ----  | ----  |
+|  分享工具  |   |   |   |   |
