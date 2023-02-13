@@ -19,7 +19,6 @@
 |  ----  | ----  | ----  | ----  | ----  |
 | 抗劫持  | 重構檢測結果資料來源由 Redis 更換為 Loki | 2-3人 |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
 
-***
 <br>
 
 ### 必要時能夠與部門進行分享
@@ -36,17 +35,16 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 訂閱推播| 完成獨立網址推播/訂閱功能 | 1人 | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
-| Google 登入 | 完成獨立網址 google 登入和權限控制 | 1人  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
+| 一鍵登出前端 | 一鍵登出系統前端登入登出 | 1 人 | 1~2 sprint | [Trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | 完成獨立網址推播/訂閱功能 | 1人 | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
+| 獨立網址 | 完成獨立網址 google 登入和權限控制 | 1人  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
 
-***
 <br>
 
 ### 了解軟體架構
 <br>
 
-- 傳統 MVC
-傳統 MVC 架構 View 代表 Html+JS+CSS
+- 傳統 MVC 架構 View 代表 Html+JS+CSS
 <br>
 <img src="img/mvc_arc.png" width="500" hight="250"/>
 
@@ -70,7 +68,6 @@
 <br>
 <img src="img/clean_arc.png" width="500" hight="250"/>
 
-***
 </br>
 </br>
 </br>
@@ -92,19 +89,19 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗封鎖/抗劫持 | 前端`單元測試/End to end`測試  | 20~30 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/prospect) |
-| 獨立網址 | 前端`單元測試/End to end`測試  | 30~40 merge request | 4 個月 | [jockey](https://proton.vir000.com/castle/jockey) |
-| 外部抗封鎖前後台 | 前端`單元測試/End to end`測試 | 20~30 merge request | 4 個月 | [spiker](https://proton.vir000.com/prediction/outside-spiker)</br>[hitter](https://proton.vir000.com/prediction/outside-hitter) |
+| 抗封鎖/抗劫持 | 前端`單元測試/End to end`測試  | 20~30 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 獨立網址 | 前端`單元測試/End to end`測試  | 30~40 merge request | 5 個月 | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 外部抗封鎖前後台 | 前端`單元測試/End to end`測試 | 20~30 merge request | 6 個月 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)</br>[hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?author_username=Jason&page=2&scope=all&state=merged) |
 
 - 後端測試框架 Golang Testify
   - Unit test
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址 | 後端單元測試 | 50~60 merge request | 4 個月 | [carriage](https://proton.vir000.com/castle/carriage) |
-| 外部抗封鎖 | 後端單元測試 | 5~10 merge request | 4 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external) |
+| 抗封鎖/抗劫持 | 後端單元測試  | 5 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | 後端單元測試 | 50~60 merge request | 5 個月 | [carriage](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 外部抗封鎖 | 後端單元測試 | 5~10 merge request | 2 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 
-***
 <br>
 <br>
 <br>
@@ -118,14 +115,17 @@
 | ---- | ----  | ----  | ----  | ----  |
 |  監控機制  |   |   |   | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
 
+<br>
+
 ### 實作 CI/CD 流程
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  frontEnd  |   |   |   | [Demo](https://proton.vir000.com/Jason/frontend_demo)  |
-|  backend  |   |   |   | [Demo](https://proton.vir000.com/Jason/backend_demo) |
+|  frontEnd  |   |   |   | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
+|  backend  |   |   |   | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
 
+<br>
 
 ### 排除系統問題的能力
 <br>
@@ -156,8 +156,10 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|    |   |   |   |   |
-
+|  獨立網址  | 和 PO 討論訂閱機制  |   |   | <img src="img/sub.png" width="200" hight="100"/> |
+|  獨立網址  | 和 PO 討論 google 登入  |   |   |   |
+|  抗封鎖  | 和 PO 討論 規則畫面邏輯  |   |   |   |
+|  抗封鎖  | 和 PO 討論 批次更新可能  |   |   |   |
 <br>
 <br>
 <br>
