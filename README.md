@@ -9,15 +9,15 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址| 一般登入替換 google 登入 | 1人 | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
-|外部抗封鎖| 導轉規則驗證模塊抽離 | 1人 | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
+| 獨立網址| 一般登入替換 google 登入 | 1 member | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
+|外部抗封鎖| 導轉規則驗證模塊抽離 | 1 member | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
 <br>
 
 - backend
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗劫持  | 重構檢測結果資料來源由 Redis 更換為 Loki | 2-3人 |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
+| 抗劫持  | 重構檢測結果資料來源由 Redis 更換為 Loki | 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
 
 <br>
 
@@ -26,7 +26,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| Typescript| Typesciprt分享 | 1 次 | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
+| Typescript| Typesciprt分享 | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
 
 <br>
 
@@ -35,9 +35,9 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 一鍵登出前端 | 一鍵登出系統前端登入登出 | 1 人 | 1~2 sprint | [Trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 | 完成獨立網址推播/訂閱功能 | 1人 | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
-| 獨立網址 | 完成獨立網址 google 登入和權限控制 | 1人  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
+| 一鍵登出前端 | 一鍵登出系統前端登入登出 | 1 member | 1~2 sprint | [Trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | 完成獨立網址推播/訂閱功能 | 1 member | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
+| 獨立網址 | 完成獨立網址 google 登入和權限控制 | 1 member  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
 
 <br>
 
@@ -78,7 +78,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| frontend |   |   |   | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
+| 獨立網址 |   |   |   | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
 
 </br>
 
@@ -113,7 +113,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  監控機制  |   |   |   | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
+|  監控機制  |    | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
 
 <br>
 
@@ -122,8 +122,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  frontEnd  |   |   |   | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
-|  backend  |   |   |   | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
+|  frontEnd  |   | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
+|  backend  |   | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
 
 <br>
 
@@ -147,7 +147,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|    |   |   |   |   |
+| 獨立網址 | google 登入前端流程初步規劃  |   |   | https://app.diagrams.net/#G1EG0v4wmeAAj-jrRIDiQ3URjDvgwwB5ez  |
 
 <br>
 
