@@ -132,9 +132,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Grafana  |   |   |   |  |
-|  frontend  |   |   |   |  |
-|  backend  |   |   |   |  |
+|  Grafana  | loki、prometheus | - | - | [監控](https://docs.google.com/spreadsheets/d/1KePlr570QtYpLeUmIyIHZaccwMvWuG0zuiNyddIzO9o/edit#gid=1002729262) |
 
 <br>
 <br>
@@ -147,7 +145,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 | google 登入前端流程初步規劃  |   |   | https://app.diagrams.net/#G1EG0v4wmeAAj-jrRIDiQ3URjDvgwwB5ez  |
+| 獨立網址 | google 登入前端流程初步規劃  | - | - | https://app.diagrams.net/#G1EG0v4wmeAAj-jrRIDiQ3URjDvgwwB5ez  |
 
 <br>
 
@@ -156,10 +154,9 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  獨立網址  | 和 PO 討論訂閱機制  |   |   | <img src="img/sub.png" width="200" hight="100"/> |
-|  獨立網址  | 和 PO 討論 google 登入  |   |   |   |
-|  抗封鎖  | 和 PO 討論 規則畫面邏輯  |   |   |   |
-|  抗封鎖  | 和 PO 討論 批次更新可能  |   |   |   |
+|  獨立網址  | 和 PO 討論訂閱機制  | - | - | <img src="img/sub.png" width="200" hight="100"/> |
+|  獨立網址  | 和 PO 討論 google 登入流程  | - | - | [issue](https://proton.vir000.com/castle/carriage/-/issues/32)  |
+|  抗封鎖  | 和 PO 討論 批次更新可能遇到的狀況  | - | - | [issue](https://proton.vir000.com/prediction/high-five/-/issues/71)  |
 
 <br>
 <br>
@@ -171,7 +168,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|    |   |   |   |   |
+| frontend  | 前端問題 100%  |   |   |   |
+| 新人導師  | 前端教學  | -  | - | - |
 
 <br>
 <br>
@@ -194,39 +192,62 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  ???  |   |   |   |   |
+|    |   |   |   |   |
+
+<br>
+<br>
 
 ### 持續為產品/流程的改進做出貢獻
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  CI Cache 優化  |   |   |   |   |
+|  CI Cache 優化  |  | - | - | [merge request](https://proton.vir000.com/prediction/spiker/-/merge_requests/9) |
+
+<br>
+<br>
 
 ### 能夠負責完整交付，小項目到正式環境
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  部署紀錄  |   |   |   |   |
+| spiker | 使用 ansible 腳本部署 QA和正式站  | - | - | [spiker](https://proton.vir000.com/prediction/spiker/-/tags) |
+| hitter | 使用 ansible 腳本部署 QA和正式站  | -  | - | [hitter](https://proton.vir000.com/prediction/hitter/-/tags) |
+| Jockey | 使用 ansible 腳本部署 QA和正式站  | -  | - | [jockey](https://proton.vir000.com/castle/jockey/-/tags) |
+
+<br>
+<br>
 
 ### 獨立管理專案
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  前端專案  |   |   |   |   |
+|  Trinity  | 專案建置、功能開發、問題除錯、測試、部署 | - | now | [trinity](https://proton.vir000.com/hello/trinity) |
+|  prospect | 功能開發、問題除錯、測試、部署 | - | now |[prospect](https://proton.vir000.com/prediction/prospect) |
+|  Spiker  | 專案建置、功能開發、問題除錯、測試、部署  | - | now | [Spiker](https://proton.vir000.com/prediction/spiker) |
+|  Hitter  | 專案建置、功能開發、問題除錯、測試、部署 | - | now | [Hitter](https://proton.vir000.com/prediction/hitter) |
+|  Jockey  | 專案建置、功能開發、問題除錯、測試、部署  | - | now | [Jockey](https://proton.vir000.com/castle/jockey) |
+
+
+<br>
+<br>
 
 ### 在複雜環境中操作,只須少量監管
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  ??  |   |   |   |   |
+|    |   |   |   |   |
+
+<br>
+<br>
 
 ### 持續學習並分享給團隊成員
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  分享工具  |   |   |   |   |
+| 分享工具 | Testing Playground  | - | - | <img src="img/testing_p.png" width="500" hight="250"/>  |
+| 分享工具 | GitHub Copilot  | - | - | - |
