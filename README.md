@@ -145,7 +145,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 | google 登入前端流程初步規劃  | - | - | https://app.diagrams.net/#G1EG0v4wmeAAj-jrRIDiQ3URjDvgwwB5ez  |
+| 獨立網址 | - | - | - | [Event Storming](https://app.diagrams.net/#G1YBMYnE5o_LJmbV64sB2EFz_FwLxI5paX)  |
+| 抗封鎖外部 | - | - | - | [Event Storming](https://app.diagrams.net/#G1XQnkLaQzv_EuoCMN6Q1WocEdZKt5YTpU)  |
 
 <br>
 
@@ -168,8 +169,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| frontend  | 前端問題 100%  |   |   |   |
-| 新人導師  | 前端教學  | -  | - | - |
+| frontend | 前端問題 100% | - | - | - |
+| 新人導師 | 前端教學  | - | - | - |
 
 <br>
 <br>
@@ -179,10 +180,10 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Android APP - JAVA/Kotlin | 開發 | - | 1-2 年 |   |
-|  Android/IOS APP - React Native  | 開發 | - | 2-3 年 |   |
-|  Web Application - React  | 開發 | - | 1 年  |
-|  Web Service - golang  | 開發  | - | 1 年  |
+|  Android APP - JAVA/Kotlin | 開發 | - | 1-2 年 | - |
+|  Android/IOS APP - React Native  | 開發 | - | 2-3 年 | - |
+|  Web Application - React  | 開發 | - | 1 年 | - |
+|  Web Service - golang  | 開發  | - | 1 年 | - |
 <br>
 
 # Soft
@@ -202,7 +203,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  CI Cache 優化  |  | - | - | [merge request](https://proton.vir000.com/prediction/spiker/-/merge_requests/9) |
+|  CI Cache 優化  | 專案原本沒有針對 node_module 進行緩存，以至於 CI Job 特別緩慢 | - | - | [merge request](https://proton.vir000.com/prediction/spiker/-/merge_requests/9) |
 
 <br>
 <br>
