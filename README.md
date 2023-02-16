@@ -79,7 +79,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 | 導轉規則格式驗證於開發前列舉紅燈案例和綠燈案例 | once  | 1 sprint  | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
+| 獨立網址 | 1. 先撰寫所有域名規格失敗用例<br> 2. 實作導轉規則驗證程式碼<br> 3. 通過測試 | once  | 1 sprint  | [prove](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#c3f416414686ec7b4686933ad5bbbeb06c912c07)  |
 
 </br>
 
@@ -90,18 +90,18 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗封鎖/抗劫持 | 前端`單元測試/End to end`測試  | 20~30 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
-| 獨立網址 | 前端`單元測試/End to end`測試  | 30~40 merge request | 5 個月 | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
-| 外部抗封鎖前後台 | 前端`單元測試/End to end`測試 | 20~30 merge request | 6 個月 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)</br>[hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?author_username=Jason&page=2&scope=all&state=merged) |
+| 抗封鎖/抗劫持 | 1. 單元測試<br> 2. End to end 測試  | 20~30 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 獨立網址 | 1. 單元測試<br> 2. End to end 測試  | 30~40 merge request | 5 個月 | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 外部抗封鎖前後台 | 1. 單元測試<br> 2. End to end 測試 | 20~30 merge request | 6 個月 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)</br>[hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?author_username=Jason&page=2&scope=all&state=merged) |
 
 - 後端測試框架 Golang Testify
   - Unit test
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗封鎖/抗劫持 | 後端單元測試  | 5 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 | 後端單元測試 | 50~60 merge request | 5 個月 | [carriage](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
-| 外部抗封鎖 | 後端單元測試 | 5~10 merge request | 2 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 抗封鎖/抗劫持 | 單元測試  | 5 merge request | 1 年 | [prospect](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | 單元測試 | 50~60 merge request | 5 個月 | [carriage](https://proton.vir000.com/castle/jockey/-/merge_requests?author_username=Jason&page=3&scope=all&state=merged) |
+| 外部抗封鎖 | 單元測試 | 5~10 merge request | 2 個月 | [high-five-external](https://proton.vir000.com/prediction/high-five-external/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 
 <br>
 <br>
@@ -164,14 +164,13 @@
 <br>
 <br>
 
-# Support - level 2
-### 能夠獨立解決50%的問題，並對客戶做出正確的回應
+# Support
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| frontend | 前端問題 100% | - | - | - |
-| 新人導師 | 前端教學  | - | - | - |
+| 新人導師 | 2022 上半年指導家慶前端技術 | - | - | - |
+| 智能導航網 | 參與智能導航網項目 | - | - | [SmartNavigation](https://proton.vir000.com/smart_navigation/smartnavigation) |
 
 <br>
 <br>
@@ -189,16 +188,6 @@
 
 # Soft
 
-### 能夠發現問題,分析複雜問題的解決方案
-<br>
-
-|     | Specific  | Number  | Time  | prove |
-| ---- | ----  | ----  | ----  | ----  |
-|    |   |   |   |   |
-
-<br>
-<br>
-
 ### 持續為產品/流程的改進做出貢獻
 <br>
 
@@ -209,7 +198,7 @@
 <br>
 <br>
 
-### 能夠負責完整交付，小項目到正式環境
+### 能夠負責完整交付，小項目到正式環境 && 在複雜環境中操作，只須少量監管
 <br>
 
 |     | Specific  | Number  | Time  | prove |
@@ -226,22 +215,13 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Trinity  | 專案建置、功能開發、問題除錯、測試、部署 | - | now | [trinity](https://proton.vir000.com/hello/trinity) |
-|  prospect | 功能開發、問題除錯、測試、部署 | - | now |[prospect](https://proton.vir000.com/prediction/prospect) |
-|  Spiker  | 專案建置、功能開發、問題除錯、測試、部署  | - | now | [Spiker](https://proton.vir000.com/prediction/spiker) |
-|  Hitter  | 專案建置、功能開發、問題除錯、測試、部署 | - | now | [Hitter](https://proton.vir000.com/prediction/hitter) |
-|  Jockey  | 專案建置、功能開發、問題除錯、測試、部署  | - | now | [Jockey](https://proton.vir000.com/castle/jockey) |
+|  Trinity  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署 | - | now | [trinity](https://proton.vir000.com/hello/trinity) |
+|  prospect | 業務邏輯、功能開發、問題除錯、測試、部署 | - | now |[prospect](https://proton.vir000.com/prediction/prospect) |
+|  Spiker  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [spiker](https://proton.vir000.com/prediction/spiker) |
+|  Hitter  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署 | - | now | [hitter](https://proton.vir000.com/prediction/hitter) |
+|  Jockey  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [jockey](https://proton.vir000.com/castle/jockey) |
+|  carriage  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [carriage](https://proton.vir000.com/castle/carriage) |
 
-
-<br>
-<br>
-
-### 在複雜環境中操作,只須少量監管
-<br>
-
-|     | Specific  | Number  | Time  | prove |
-| ---- | ----  | ----  | ----  | ----  |
-|    |   |   |   |   |
 
 <br>
 <br>
@@ -252,4 +232,3 @@
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
 | 分享工具 | Testing Playground  | - | - | <img src="img/testing_p.png" width="500" hight="250"/>  |
-| 分享工具 | GitHub Copilot  | - | - | - |
