@@ -1,23 +1,19 @@
-技術審查
+# 2023 技術審查
+評議職級: SPD4
 
-# Programming
+[toc]
+
+# Programming - level 3
 
 ### 重構 module level
 <br>
 
-- frontend
-
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址| 以 Google OAuth 登入驗證流程替換原本的一般登入 | 2 member | 1 sprint | [issue](https://proton.vir000.com/castle/carriage/-/issues/32) |
+| 獨立網址重建 | 1. 舊有的獨立網址系統架構不適合加入新平台或功能，且程式框架較為複雜，因此重構<br> 2. 使用 React 和 golang 進行系統重構<br> 3. 以訂閱推播的方式推送資料 | 馬拉松 | 2022/09 ~ now |[issue](https://proton.vir000.com/castle/carriage/-/issues/9)|
+| 抗劫持  | 原先抗劫持`單一`、`全部`地區的 IP 替換是透過存放在 Redis 資料庫做替換，透過將資料源<br>切換成 loki 的方式改善`資料保留與查詢不方便`、`檢測結果顯示不完整`、`檢測結果不即時`等問題| 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
 |外部抗封鎖| 導轉規則驗證邏輯複雜，且複用性較高，透過模塊的抽離能更好的進行測試 | 1 member | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
 <br>
-
-- backend
-
-|     | Specific  | Number  | Time  | prove |
-|  ----  | ----  | ----  | ----  | ----  |
-| 抗劫持  | 原先抗劫持`單一`、`全部`地區的 IP 替換是透過存放在 Redis 資料庫做替換，透過將資料源<br>切換成 loki 的方式改善`資料保留與查詢不方便`、`檢測結果顯示不完整`、`檢測結果不即時`等問題| 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
 
 <br>
 
@@ -26,7 +22,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| Typescript| 為了讓前端開發知道 Typescript 優劣，透過實際應用了解，並將結論與部門分享 | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
+| Typescript| 1. 較為熱門<br> 2. 前端套件都以 TS 編寫<br> 3. 有實作經驗  | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
 
 <br>
 
@@ -35,9 +31,13 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 一鍵登出前端 | 一鍵登出系統前端登入登出 | 1 member | 1~2 sprint | [Trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 | 完成獨立網址推播/訂閱功能 | 1 member | 1 sprint | [訂閱推播](https://proton.vir000.com/castle/carriage/-/issues/17) |
-| 獨立網址 | 完成獨立網址 google 登入和權限控制 | 1 member  | 1 sprint | [登入](https://proton.vir000.com/castle/carriage/-/issues/32) |
+| 建站管理 | TBI | own | 2021 | [maid](https://proton.vir000.com/castle/maid/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 抗封鎖/抗劫持 | TBI | own | 2022 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hight five](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [predictor](https://proton.vir000.com/prediction/predictor/-/merge_requests?scope=all&state=merged&author_username=Jason)|
+| 外部抗封鎖 | TBI | own | 2022 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | TBI | own | 2022/09 ~ now | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [carriage](https://proton.vir000.com/castle/carriage/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| Navigation | 維運 | own | - | [navy-js](https://proton.vir000.com/navigation/navy-js/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 部署腳本 | 建立專案部署腳本 | own |  | [外部抗封鎖前端專案](https://proton.vir000.com/prediction/prelude/-/merge_requests/378/diffs)<br> [獨立網址前端專案](https://proton.vir000.com/castle/castle-deploy/-/merge_requests/505/diffs) |
+
 
 <br>
 
@@ -72,7 +72,7 @@
 </br>
 </br>
 
-# Testing
+# Testing - level 3
 ### 會使用 TDD
 </br>
 
@@ -106,7 +106,7 @@
 <br>
 <br>
 
-# Infrastructure/DevOps
+# Infrastructure/DevOps - level 3
 
 ### 實作監控流程或機制
 <br>
@@ -138,7 +138,7 @@
 <br>
 <br>
 
-# Domain Knowledge
+# Domain Knowledge - level 3
 
 ### 了解領域知識和部門內討論
 <br>
@@ -163,7 +163,7 @@
 <br>
 <br>
 
-# Support
+# Support - level 2
 ### 能夠獨立解決50%的問題，並對客戶做出正確的回應
 <br>
 
@@ -176,7 +176,7 @@
 <br>
 <br>
 
-# Experience
+# Experience - level 3
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
