@@ -31,12 +31,13 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 建站管理 | TBI | own | 2021 | [maid](https://proton.vir000.com/castle/maid/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 抗封鎖/抗劫持 | TBI | own | 2022 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hight five](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [predictor](https://proton.vir000.com/prediction/predictor/-/merge_requests?scope=all&state=merged&author_username=Jason)|
-| 外部抗封鎖 | TBI | own | 2022 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 | TBI | own | 2022/09 ~ now | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [carriage](https://proton.vir000.com/castle/carriage/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 建站管理 | TBI | own | 2021/11~2021/12 | [maid](https://proton.vir000.com/castle/maid/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 抗封鎖/抗劫持 | TBI | own | 2021/12~2022/10 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hight five](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [predictor](https://proton.vir000.com/prediction/predictor/-/merge_requests?scope=all&state=merged&author_username=Jason)|
+| 一鍵登出 | TBI | own | 2022/05 | [trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 外部抗封鎖 | TBI | own | 2022/06~2022/12 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [outside spiker](https://proton.vir000.com/prediction/outside-spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [outside hitter](https://proton.vir000.com/prediction/outside-hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | TBI | own | 2022/07 ~ now | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [carriage](https://proton.vir000.com/castle/carriage/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 | Navigation | 維運 | own | - | [navy-js](https://proton.vir000.com/navigation/navy-js/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 部署腳本 | 建立專案部署腳本 | own |  | [外部抗封鎖前端專案](https://proton.vir000.com/prediction/prelude/-/merge_requests/378/diffs)<br> [獨立網址前端專案](https://proton.vir000.com/castle/castle-deploy/-/merge_requests/505/diffs) |
+| 部署腳本 | 建立專案部署腳本 | own | - | [外部抗封鎖前端專案](https://proton.vir000.com/prediction/prelude/-/merge_requests/378/diffs)<br> [獨立網址前端專案](https://proton.vir000.com/castle/castle-deploy/-/merge_requests/505/diffs)<br> [一鍵登出前端專案](https://proton.vir000.com/hello/fallout-deploy/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 
 
 <br>
