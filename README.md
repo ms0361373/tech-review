@@ -90,7 +90,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 </br>
 
-<img src="img/clean_arc.png" width="500" hight="250"/>
+<img src="img/clean.png" width="500" hight="250"/>
 
 </br>
 </br>
