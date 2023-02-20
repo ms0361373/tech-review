@@ -87,6 +87,9 @@ Clean Architecture 通常包括以下幾層：
 - 框架與驅動層（Framework and Driver Layer）：包括系統中的框架和驅動。
 
 Clean Architecture 運作方式的基本思想是將系統中的各個層次分離開來，每一層都可以獨立地進行開發、測試和部署，而且每一層都只能依賴於下一層，而不能依賴於更下層或者更上層的層次。這樣可以實現系統的低耦合性，從而提高系統的可測試性、可維護性和可擴展性。
+
+</br>
+
 <img src="img/clean_arc.png" width="500" hight="250"/>
 
 </br>
