@@ -43,6 +43,12 @@
 <br>
 
 ### 了解軟體架構
+軟體架構主要是能夠好管理應用程式的邏輯，使應用程式各個區塊間職責更加清晰。
+一般會遵循以下基本原則:
+1. 分離關注點：將應用程式分離為不同的部分，每個部分負責自己的職責。模型處理數據，視圖展示數據，控制器處理用戶輸入和互動。
+2. 低耦合：模型、視圖和控制器之間應該保持低耦合。這樣可以讓每個部分獨立地進行修改和測試。
+3. 測試性：分離關注點和低耦合特性可以讓應用程式更容易進行測試。例如，可以單獨測試模型、視圖和控制器，從而確保每個部分的正確性。
+
 <br>
 
 - 傳統 MVC 架構 View 代表 Html+JS+CSS。
@@ -65,8 +71,22 @@
 <br>
 <img src="img/redux.png" width="500" hight="250"/>
 
-- backend clean architecture
+- Clean Architecture
 <br>
+
+核心思想是將系統分成多個層次，每個層次都有明確的職責，從而實現高度可測試、可維護和可擴展的系統。
+
+Clean Architecture 通常包括以下幾層：
+
+- 實體層（Entity Layer）：包括系統中的實體類和業務邏輯。
+
+- 用例層（Use Case Layer）：包括系統中的用例類和業務邏輯。
+
+- 介面適配器層（Interface Adapter Layer）：負責將系統中的用例類與外部介面進行映射。
+
+- 框架與驅動層（Framework and Driver Layer）：包括系統中的框架和驅動。
+
+Clean Architecture 運作方式的基本思想是將系統中的各個層次分離開來，每一層都可以獨立地進行開發、測試和部署，而且每一層都只能依賴於下一層，而不能依賴於更下層或者更上層的層次。這樣可以實現系統的低耦合性，從而提高系統的可測試性、可維護性和可擴展性。
 <img src="img/clean_arc.png" width="500" hight="250"/>
 
 </br>
@@ -146,8 +166,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 | - | - | - | [Event Storming](https://app.diagrams.net/#G1YBMYnE5o_LJmbV64sB2EFz_FwLxI5paX)  |
-| 抗封鎖外部 | - | - | - | [Event Storming](https://app.diagrams.net/#G1XQnkLaQzv_EuoCMN6Q1WocEdZKt5YTpU)  |
+| 獨立網址 | 舊系統切換並將功能模塊以 Event Storming 拆分，討論程式流程和邏輯 | - | - | [Event Storming](https://app.diagrams.net/#G1YBMYnE5o_LJmbV64sB2EFz_FwLxI5paX)  |
+| 抗封鎖外部 | 抗封鎖外部使用中前後台系統的建立討論，並透過 Event Storming 進行流程邏輯梳理 | - | - | [Event Storming](https://app.diagrams.net/#G1XQnkLaQzv_EuoCMN6Q1WocEdZKt5YTpU)  |
 
 <br>
 
@@ -156,7 +176,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  獨立網址  | 和 PO 討論訂閱機制  | - | - | <img src="img/sub.png" width="200" hight="100"/> |
+|  獨立網址  | 和 PO 討論訂閱機制，Api key 如何實作等等  | - | - | <img src="img/sub.png" width="200" hight="100"/> |
 |  獨立網址  | 和 PO 討論 google 登入流程  | - | - | [issue](https://proton.vir000.com/castle/carriage/-/issues/32)  |
 |  抗封鎖  | 和 PO 討論 批次更新可能遇到的狀況  | - | - | [issue](https://proton.vir000.com/prediction/high-five/-/issues/71)  |
 
