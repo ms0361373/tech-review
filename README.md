@@ -22,7 +22,7 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| Typescript| 1. 較為熱門<br> 2. 前端套件都以 TS 編寫<br> 3. 有實作經驗  | once | 20mis | [TypeScript](https://proton.vir000.com/hello/scrummaster/-/issues/90#note_64471https://proton.vir000.com/Jason/jason_gao/-/blob/master/TypeSctip%E7%B0%A1%E4%BB%8B.md) |
+| Typescript| 1. 較為熱門<br> 2. 前端套件都以 TS 編寫<br> 3. 有實作經驗  | once | 20mis | [TypeScript](https://proton.vir000.com/castle/maid/-/issues/6) |
 
 <br>
 
@@ -146,8 +146,8 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  frontend  | 前端 ci 運行 test、lint、build 並生成 artifacts | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
-|  backend  |  後端 ci 運行 test、lint、build 並生成 artifacts  | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
+|  frontend  | 前端 ci 運行 test、lint、scan、build 並生成 artifacts | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
+|  backend  |  後端 ci 運行 test、lint、scan、build 並生成 artifacts  | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
 
 <br>
 
@@ -156,7 +156,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Grafana  | loki、prometheus | - | - | [監控](https://docs.google.com/spreadsheets/d/1KePlr570QtYpLeUmIyIHZaccwMvWuG0zuiNyddIzO9o/edit#gid=1002729262) |
+|  Grafana  | loki、prometheus | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo/-/tree/master/monitor) |
 
 <br>
 <br>
@@ -192,7 +192,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 新人導師 | 2022 上半年指導家慶前端技術 | - | - | - |
+| 新人導師 | 2022 上半年指導家慶前端技術 | - | - | [counter](https://proton.vir000.com/postman/counter/-/merge_requests/5) |
 | 智能導航網 | 參與智能導航網項目 | - | - | [SmartNavigation](https://proton.vir000.com/smart_navigation/smartnavigation) |
 
 <br>
@@ -217,6 +217,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
 |  CI Cache 優化  | 專案原本沒有針對 node_module 進行緩存，以至於 CI Job 特別緩慢 | - | - | [merge request](https://proton.vir000.com/prediction/spiker/-/merge_requests/9) |
+|  dependencies check  | 前端專案的資源依賴檢查 | - | - | [merge request](https://proton.vir000.com/castle/jockey/-/merge_requests/122) |
 
 <br>
 <br>
