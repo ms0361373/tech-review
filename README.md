@@ -10,8 +10,8 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 獨立網址重建 | 1. 舊有的獨立網址系統架構不適合加入新平台或功能，且程式框架較為複雜，因此重構<br> 2. 使用 React 和 golang 進行系統重構<br> 3. 以訂閱推播的方式推送資料 | 馬拉松 | 2022/09 ~ now |[issue](https://proton.vir000.com/castle/carriage/-/issues/9)|
-| 抗劫持  | 原先抗劫持`單一`、`全部`地區的 IP 替換是透過存放在 Redis 資料庫做替換，透過將資料源<br>切換成 loki 的方式改善`資料保留與查詢不方便`、`檢測結果顯示不完整`、`檢測結果不即時`等問題| 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)|
+| 獨立網址重建 | 1. 舊有的獨立網址系統架構不適合加入新平台或功能，且程式框架較為複雜，因此重構<br> 2. 使用 React 和 golang 進行系統重構<br> 3. 以訂閱推播的方式推送資料 | 馬拉松 | 2022/09 ~ now |[issue](https://proton.vir000.com/castle/carriage/-/issues/9)<br> [commit](https://proton.vir000.com/castle/carriage/-/merge_requests?page=26&scope=all&state=merged)|
+| 抗劫持  | 原先抗劫持`單一`、`全部`地區的 IP 替換是透過存放在 Redis 資料庫做替換，透過將資料源<br>切換成 loki 的方式改善`資料保留與查詢不方便`、`檢測結果顯示不完整`、`檢測結果不即時`等問題| 2-3 member |2 sprint|[issue](https://proton.vir000.com/prediction/predictor/-/issues/388)<br> [commit](https://proton.vir000.com/prediction/predictor/-/issues/413)<br> [commit](https://proton.vir000.com/prediction/predictor/-/issues/412)|
 |外部抗封鎖| 導轉規則驗證邏輯複雜，且複用性較高，透過模塊的抽離能更好的進行測試 | 1 member | 1 sprint |[code](https://proton.vir000.com/prediction/spiker/-/blob/157fb7f98995174e1d6ed3e96006741147c86e7e/src/Component/Redirection/RedirectionRuleValidation.js)|
 <br>
 
