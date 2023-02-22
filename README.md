@@ -113,7 +113,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 抗封鎖/抗劫持 | 1. 單元測試<br> 2. End to end 測試  | 20~30 merge request | 1 年 | [end to end](https://proton.vir000.com/prediction/prospect/-/merge_requests/350/diffs#diff-content-60726a73bda3b55469cddacedb6e0bb2bfa565fe)<br> [unit test](https://proton.vir000.com/prediction/prospect/-/merge_requests/350/diffs#diff-content-63315393c383678f2dc2a8e9ec66439f0ff6ae53) |
+| 抗封鎖/抗劫持 | 1. 單元測試<br> 2. End to end 測試  | 20~30 merge request | 1 年 | [end to end](https://proton.vir000.com/prediction/prospect/-/merge_requests/350/diffs#diff-content-60726a73bda3b55469cddacedb6e0bb2bfa565fe)<br> [unit test](https://proton.vir000.com/prediction/prospect/-/merge_requests/350/diffs#diff-content-0b0c7768c7588861684a74ef8dd56e364c45ff7a) |
 | 獨立網址 | End to end 測試  | 30~40 merge request | 5 個月 | [end to end](https://proton.vir000.com/castle/jockey/-/merge_requests/14/diffs#diff-content-b29aef74015d0c4efdd56a6e48ade75b63410dd2) |
 | 外部抗封鎖前後台 | 1. 單元測試<br> 2. End to end 測試 | 20~30 merge request | 6 個月 | [end to end](https://proton.vir000.com/prediction/spiker/-/merge_requests/17/diffs#diff-content-3d6eb5ed62b5af193c953bbccf01b27c28db7920)<br> [unit test](https://proton.vir000.com/prediction/spiker/-/merge_requests/19/diffs#diff-content-31bc43b87ea1475c1f8b8a49a6554e8b299a929f) |
 
