@@ -22,21 +22,25 @@
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| Typescript| 1. 較為熱門<br> 2. 前端套件都以 TS 編寫<br> 3. 有實作經驗  | once | 20mis | [TypeScript](https://proton.vir000.com/castle/maid/-/issues/6) |
+| Typescript| 1. 較為熱門<br> 2. 前端套件都以 TS 編寫<br> 3. 有實作經驗  | once | 20mis | 會議討論與分享: [會議](https://proton.vir000.com/castle/maid/-/issues/6) 、 [分享](https://proton.vir000.com/hello/scrummaster/-/issues/90)  |
 
 <br>
 
 ### 能夠獨立完成任務
+目前團隊所有的前端後端專案項目，從 TBI 的接取到後續的部署都能夠獨立完成不需有其他成員的協助
+。
+
 <br>
 
 |     | Specific  | Number  | Time  | prove |
 |  ----  | ----  | ----  | ----  | ----  |
-| 建站管理 | TBI | own | 2021/11~2021/12 | [maid](https://proton.vir000.com/castle/maid/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 抗封鎖/抗劫持 | TBI | own | 2021/12~2022/10 | [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hight five](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [predictor](https://proton.vir000.com/prediction/predictor/-/merge_requests?scope=all&state=merged&author_username=Jason)|
-| 一鍵登出 | TBI | own | 2022/05 | [trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 外部抗封鎖 | TBI | own | 2022/06~2022/12 | [spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [outside spiker](https://proton.vir000.com/prediction/outside-spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [outside hitter](https://proton.vir000.com/prediction/outside-hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| 獨立網址 | TBI | own | 2022/07 ~ now | [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [carriage](https://proton.vir000.com/castle/carriage/-/merge_requests?scope=all&state=merged&author_username=Jason) |
-| Navigation | 維運 | own | - | [navy-js](https://proton.vir000.com/navigation/navy-js/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 建站管理 | 建站管理專案中，多數以承接前端項目為主，包含畫面刻板和邏輯撰寫與 API 串接、測試撰寫。 | own | 2021/11~2021/12 | 前端專案: [maid](https://proton.vir000.com/castle/maid/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/castle/butler/-/issues/103) |
+| 抗封鎖/抗劫持 | 抗封鎖/抗劫持前端專案中以 TBI 承接為主，包含畫面刻板和邏輯撰寫與 API 串接、測試撰寫，後期較多在修正 bug。<br> 後端專案中以 TBI 承接為主，包含 API 文件撰寫，API 功能設計和單元測試。 | own | 2021/12~2022/10 | 前端專案: [prospect](https://proton.vir000.com/prediction/prospect/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/prediction/predictor/-/issues/371)<br> 後端專案: [hight five](https://proton.vir000.com/prediction/high-five/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/prediction/high-five/-/issues/61)<br>後端專案: [predictor](https://proton.vir000.com/prediction/predictor/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/prediction/predictor/-/issues/388)|
+| 一鍵登出 | 一鍵登出專案中，實作登入/登出功能 | own | 2022/05 | 前端專案: [trinity](https://proton.vir000.com/hello/trinity/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/hello/fallout/-/issues/5) |
+| 外部抗封鎖 | 外部抗封鎖專案中，以承接前端項目為主，且建置了前端前台管理和後台管理專案，熟悉建置到部署流程 | own | 2022/06~2022/12 | 前端專案:<br>[spiker](https://proton.vir000.com/prediction/spiker/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/prediction/high-five/-/issues/29)<br> [hitter](https://proton.vir000.com/prediction/hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/prediction/high-five/-/issues/96)<br> [outside spiker](https://proton.vir000.com/prediction/outside-spiker/-/merge_requests?scope=all&state=merged&author_username=Jason)<br> [outside hitter](https://proton.vir000.com/prediction/outside-hitter/-/merge_requests?scope=all&state=merged&author_username=Jason) |
+| 獨立網址 | 獨立網址專案中，以前後端項目承接，且建置了前端和後台專案，熟悉前後端建置到部署流程 | own | 2022/07 ~ now | 前端專案: [jockey](https://proton.vir000.com/castle/jockey/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/castle/carriage/-/issues/32)<br> 後端專案: [carriage](https://proton.vir000.com/castle/carriage/-/merge_requests?scope=all&state=merged&author_username=Jason) - [TBI](https://proton.vir000.com/castle/gardener/-/issues/222) |
+| 第三方監控 | 獨立網址第三方監控專案，負責專案建置功能實作和部署 | own | - | [bafang](https://proton.vir000.com/castle/bafang/-/merge_requests?author_username=Jason&page=2&scope=all&state=merged) - [TBI](https://proton.vir000.com/castle/carriage/-/issues/78) |
+| Navigation | 日常維運，異動監控目標 | own | - | [navy-js](https://proton.vir000.com/navigation/navy-js/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 | 部署腳本 | 建立專案部署腳本 | own | - | [外部抗封鎖前端專案](https://proton.vir000.com/prediction/prelude/-/merge_requests/378/diffs)<br> [獨立網址前端專案](https://proton.vir000.com/castle/castle-deploy/-/merge_requests/505/diffs)<br> [一鍵登出前端專案](https://proton.vir000.com/hello/fallout-deploy/-/merge_requests?scope=all&state=merged&author_username=Jason) |
 
 
@@ -137,7 +141,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  監控機制  | 將前端和後端服務掛載本機 docker 並透過，API 實現 error log 告警  | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
+|  監控機制  | 將前端和後端服務使用 loki 監控並透過，API 實現 error log 告警  | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo) |
 
 <br>
 
@@ -148,6 +152,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 | ---- | ----  | ----  | ----  | ----  |
 |  frontend  | 前端 ci 運行 test、lint、scan、build 並生成 artifacts | - | - | [Demo](https://proton.vir000.com/Jason/frontend_demo/-/blob/master/.gitlab-ci.yml)  |
 |  backend  |  後端 ci 運行 test、lint、scan、build 並生成 artifacts  | - | - | [Demo](https://proton.vir000.com/Jason/backend_demo/-/blob/master/.gitlab-ci.yml) |
+|  deploy  |  透部署腳本將後端 ci 生成的 artifacts 下載並掛載到 docker 服務  | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo/-/blob/master/deploy/ansible/deploy_demo.yml) |
 
 <br>
 
@@ -156,7 +161,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Grafana  | loki、prometheus | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo/-/tree/master/monitor) |
+|  Grafana  | 透過本機監控服務查看 error log 並定位發生問題 | - | - | [Demo](https://proton.vir000.com/Jason/deploy_demo/-/tree/master/monitor) |
 
 <br>
 <br>
@@ -169,8 +174,8 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| 獨立網址 | 舊系統切換並將功能模塊以 Event Storming 拆分，討論程式流程和邏輯 | - | - | [Event Storming](https://app.diagrams.net/#G1YBMYnE5o_LJmbV64sB2EFz_FwLxI5paX)  |
-| 抗封鎖外部 | 抗封鎖外部使用中前後台系統的建立討論，並透過 Event Storming 進行流程邏輯梳理 | - | - | [Event Storming](https://app.diagrams.net/#G1XQnkLaQzv_EuoCMN6Q1WocEdZKt5YTpU)  |
+| 獨立網址 | 舊系統切換並將功能模塊以 Event Storming 拆分，討論程式流程和邏輯，其領域知識包括各單位如何使用 API key 區分服務，和訂閱推播機制推動資料傳輸實時性，和登入的驗證機制等等。 | - | - | [Event Storming](https://app.diagrams.net/#G1YBMYnE5o_LJmbV64sB2EFz_FwLxI5paX)  |
+| 抗封鎖外部 | 抗封鎖外部使用，討論出前後台管理機制，並透過 Event Storming 進行流程邏輯梳理，其中涵蓋的領域知識包含如何區分代理商、管理者、end user，不同角色使用時所需要的場景和功能等等。 | - | - | [Event Storming](https://app.diagrams.net/#G1XQnkLaQzv_EuoCMN6Q1WocEdZKt5YTpU)  |
 
 <br>
 
@@ -180,8 +185,8 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
 |  獨立網址  | 和 PO 討論訂閱機制，Api key 如何實作等等  | - | - | <img src="img/sub.png" width="200" hight="100"/> |
-|  獨立網址  | 和 PO 討論 google 登入流程  | - | - | [issue](https://proton.vir000.com/castle/carriage/-/issues/32)  |
-|  抗封鎖  | 和 PO 討論 批次更新可能遇到的狀況  | - | - | [issue](https://proton.vir000.com/prediction/high-five/-/issues/71)  |
+|  獨立網址  | 在實作功能前，提供登入大致流程和概念後和 PO 討論 google 登入流程。  | - | - | [issue](https://proton.vir000.com/castle/carriage/-/issues/32)  |
+|  抗封鎖  | 原先的討論中可能需要透過 websocket 機制來達成批次更新等待過久問題，後續以分批呼叫方式和 PO 討論可行性。  | - | - | [issue](https://proton.vir000.com/prediction/high-five/-/issues/71)  |
 
 <br>
 <br>
@@ -193,7 +198,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
 | 新人導師 | 2022 上半年指導家慶前端技術 | - | - | [counter](https://proton.vir000.com/postman/counter/-/merge_requests/5) |
-| 智能導航網 | 參與智能導航網項目 | - | - | [SmartNavigation](https://proton.vir000.com/smart_navigation/smartnavigation) |
+| 智能導航網 | 參與智能導航網項目，撰寫方案教學手冊 | - | - | [SmartNavigation](https://proton.vir000.com/smart_navigation/smartnavigation) |
 
 <br>
 <br>
@@ -227,9 +232,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-| spiker | 使用 ansible 腳本部署 QA和正式站  | - | - | [spiker](https://proton.vir000.com/prediction/spiker/-/tags) |
-| hitter | 使用 ansible 腳本部署 QA和正式站  | -  | - | [hitter](https://proton.vir000.com/prediction/hitter/-/tags) |
-| Jockey | 使用 ansible 腳本部署 QA和正式站  | -  | - | [jockey](https://proton.vir000.com/castle/jockey/-/tags) |
+| 獨立網址 | 能夠獨立完成前端和後端項目的部署，並透過跳板機去到目標機查看服務 log 或者資料庫，當有問題時能快速定位問題的方向。 | - | - | [架構圖](https://app.diagrams.net/#G14IpXPpPvoQyQraa-QA3S6IpbF_gIr7aK)<br> [deploy](https://proton.vir000.com/castle/castle-deploy/-/blob/master/ansible/aws-deploy-carriage.yml)<br> [config](https://proton.vir000.com/Jason/technical-review/-/raw/master/img/config.png)  |
 
 <br>
 <br>
@@ -239,13 +242,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  Trinity  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署 | - | now | [trinity](https://proton.vir000.com/hello/trinity) |
-|  prospect | 功能開發、問題除錯、測試、部署 | - | now |[prospect](https://proton.vir000.com/prediction/prospect) |
-|  Spiker  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [spiker](https://proton.vir000.com/prediction/spiker) |
-|  Hitter  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署 | - | now | [hitter](https://proton.vir000.com/prediction/hitter) |
-|  Jockey  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [jockey](https://proton.vir000.com/castle/jockey) |
-|  carriage  | 業務邏輯、專案建置、功能開發、問題除錯、測試、部署  | - | now | [carriage](https://proton.vir000.com/castle/carriage) |
-
+| 獨立網址 | 專案中能獨管理專案建置、功能開發、問題除錯、專案部署等等，也會持續新知識應用到專案當中，業務邏輯方面也能有足夠的知識和 PO 溝通或轉達正確的訊息給團隊 ｜ - | now | [carriage](https://proton.vir000.com/castle/carriage) |
 
 <br>
 <br>
