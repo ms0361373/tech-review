@@ -184,7 +184,7 @@ Clean Architecture 運作方式的基本思想是將系統中的各個層次分�
 
 |     | Specific  | Number  | Time  | prove |
 | ---- | ----  | ----  | ----  | ----  |
-|  獨立網址  | 和 PO 討論訂閱機制，Api key 如何實作等等  | - | - | <img src="img/sub.png" width="200" hight="100"/> |
+|  獨立網址  | 和 PO 討論訂閱機制，Api key 如何實作等等  | - | - | [討論的一張紙](https://proton.vir000.com/Jason/technical-review/-/raw/master/img/sub.png)|
 |  獨立網址  | 在實作功能前，提供登入大致流程和概念後和 PO 討論 google 登入流程。  | - | - | [issue](https://proton.vir000.com/castle/carriage/-/issues/32)  |
 |  抗封鎖  | 原先的討論中可能需要透過 websocket 機制來達成批次更新等待過久問題，後續以分批呼叫方式和 PO 討論可行性。  | - | - | [issue](https://proton.vir000.com/prediction/high-five/-/issues/71)  |
 
