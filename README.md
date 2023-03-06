@@ -80,7 +80,7 @@
 
 核心思想是將系統分成多個層次，每個層次都有明確的職責，從而實現高度可測試、可維護和可擴展的系統。
 
-Clean Architecture 通常包括以下幾層：
+[Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg) 通常包括以下幾層：
 
 - 實體層（Entity Layer）：包括系統中的實體類和業務邏輯。
 
